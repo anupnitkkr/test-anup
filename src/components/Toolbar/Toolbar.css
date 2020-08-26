@@ -1,0 +1,62 @@
+.Toolbar {
+  background-color: #ff8c1a;
+  height: 56px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Toolbar nav {
+  -ms-flex-preferred-size: 250px;
+  flex-basis: 250px;
+}
+
+.Home {
+  margin-left: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 0px) {
+  .Toolbar {
+    height: 40px;
+    padding: 0 4%;
+  }
+  .Toolbar div {
+    line-height: 40px;
+  }
+  .BugerIcon {
+    display: initial;
+    height: 100%;
+  }
+  .Home {
+    display: none;
+  }
+  .Toolbar nav {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .Toolbar {
+    height: 56px;
+  }
+  .Toolbar div {
+    line-height: 3rem;
+  }
+  .BugerIcon {
+    display: none;
+    height: 100%;
+  }
+  .Home {
+    display: initial;
+  }
+  .Toolbar nav {
+    display: initial;
+  }
+}
+
+// WEBPACK FOOTER //
+// ./src/components/Toolbar/Toolbar.css

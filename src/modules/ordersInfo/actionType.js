@@ -1,0 +1,5 @@
+export const AJAX_START = "AJAX_START";
+export const AJAX_COMPLETE = "AJAX_COMPLETE";
+export const FETCH_ORDERS_SUCCESS = "FETCH_ORDERS_SUCCESS";
+//export const FETCH_ORDERS = "FETCH_ORDERS";
+export const FETCHING_ORDER = "FETCHING_ORDER";

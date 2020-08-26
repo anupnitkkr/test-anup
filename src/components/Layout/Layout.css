@@ -1,0 +1,18 @@
+.Content {
+  margin-top: 16px;
+}
+
+@media (min-width: 0px) {
+  .Content {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .Content {
+    margin-top: 16px;
+  }
+}
+
+// WEBPACK FOOTER //
+// ./src/components/Layout/Layout.css

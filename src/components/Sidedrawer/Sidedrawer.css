@@ -1,0 +1,16 @@
+.SideDrawer {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  z-index: 200;
+}
+
+.SideDrawer a {
+  color: black;
+}
+
+// WEBPACK FOOTER //
+// ./src/components/Sidedrawer/Sidedrawer.css

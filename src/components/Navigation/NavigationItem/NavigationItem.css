@@ -1,0 +1,26 @@
+.NavigationItem {
+  list-style: none;
+  background-color: #ff8c1a;
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  line-height: 56px;
+}
+
+.Normal {
+  background-color: #ffcc99;
+}
+
+@media (min-width: 0px) {
+  .NavigationItem a {
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 576px) {
+  .NavigationItem a {
+    line-height: 56px;
+  }
+}
